@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/activity/activity",
+    "pages/detailact/detailact",
+    "pages/gallery/gallery",
+    "pages/detailgly/detailgly",
+    "pages/master/master",
+    "pages/detailmst/detailmst",
+    "pages/travel/travel",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "数智非遗",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#cc0000",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index","text":"首页"
+    },
+    {
+      "pagePath": "pages/mine/mine","text":"我的"
+    }     
+   ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
