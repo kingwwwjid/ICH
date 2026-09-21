@@ -1,3 +1,9 @@
-<view class="page">
-  <text>活动详情</text>
+<view wx:if="{{act}}">
+  <image class="cover" src="{{act.cover}}" mode="aspectFill"></image>
+  <view class="body">
+    <text class="title">{{act.title}}</text>
+    <text class="info">时间：{{act.time}}</text>
+    <text class="info">地点：{{act.location}}</text>
+    <text class="detail">{{act.detail}}</text>
+  </view>
 </view>

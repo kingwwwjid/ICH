@@ -1,3 +1,27 @@
-.page {
-  padding: 40rpx;
+.cover {
+  width: 100%;
+  height: 400rpx;
+}
+.body {
+  padding: 24rpx;
+  background: #fff;
+}
+.title {
+  display: block;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+.info {
+  display: block;
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.detail {
+  display: block;
+  margin-top: 24rpx;
+  font-size: 30rpx;
+  color: #333;
+  line-height: 1.6;
 }
