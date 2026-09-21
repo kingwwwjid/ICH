@@ -1,3 +1,14 @@
-<view class="page">
-  <text>非遗大师</text>
+<view class="list">
+  <view class="mst-item"
+    wx:for="{{masters}}"
+    wx:key="id"
+    bindtap="onMstTap"
+    data-id="{{item.id}}">
+    <image class="mst-img" src="{{item.image}}" mode="aspectFill"></image>
+    <view class="mst-info">
+      <text class="mst-name">{{item.name}}</text>
+      <text class="mst-title">{{item.title}}</text>
+      <text class="mst-intro">{{item.intro}}</text>
+    </view>
+  </view>
 </view>

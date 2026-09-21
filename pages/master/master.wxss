@@ -1,3 +1,23 @@
-.page {
-  padding: 40rpx;
+.list { padding: 24rpx; }
+.mst-item {
+  display: flex;
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+  padding: 20rpx;
 }
+.mst-img {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.mst-info {
+  flex: 1;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mst-name { font-size: 32rpx; font-weight: bold; color: #333; }
+.mst-title { font-size: 26rpx; color: #cc0000; }
+.mst-intro { font-size: 26rpx; color: #666; }
