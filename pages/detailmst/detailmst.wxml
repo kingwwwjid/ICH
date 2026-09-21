@@ -1,3 +1,8 @@
-<view class="page">
-  <text>大师详情</text>
+<view wx:if="{{mst}}">
+  <image class="cover" src="{{mst.image}}" mode="aspectFill"></image>
+  <view class="body">
+    <text class="name">{{mst.name}}</text>
+    <text class="title">{{mst.title}}</text>
+    <text class="para">{{mst.intro}}</text>
+  </view>
 </view>

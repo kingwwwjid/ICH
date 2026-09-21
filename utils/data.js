@@ -44,28 +44,28 @@ module.exports = {
       id:1,
       image:'/images/1.png',
       name:'张三',
-      titile:'非遗传承人某某某',
+      title:'非遗传承人某某某',
       intro:'大师介绍。' 
 },
     {
       id:2,
       image:'/images/2.png',
       name:'李四',
-      titile:'非遗传承人某某某',
+      title:'非遗传承人某某某',
       intro:'大师介绍。'    
     },
     {
       id:3,
       image:'/images/3.png',
       name:'王五',
-      titile:'非遗传承人某某某',
+      title:'非遗传承人某某某',
       intro:'大师介绍。'    
     },
     {
       id:4,
       image:'/images/4.png',
       name:'赵六',
-      titile:'非遗传承人某某某',
+      title:'非遗传承人某某某',
       intro:'大师介绍。'
     }
   ],
