@@ -19,5 +19,5 @@
   justify-content: space-between;
 }
 .mst-name { font-size: 32rpx; font-weight: bold; color: #333; }
-.mst-title { font-size: 26rpx; color: #cc0000; }
-.mst-intro { font-size: 26rpx; color: #666; }
+.mst-title { font-size: 26rpx; color: #b19b9b; }
+.mst-intro { font-size: 26rpx; color: #6dcebf; }

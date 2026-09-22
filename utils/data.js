@@ -86,7 +86,7 @@ module.exports = {
             id:3,
             image:'/images/13.png',  
           name:'张家界',
-            intro:'九寨沟。'
+            intro:'张家界。'
           },  
         {
             id:4,
@@ -95,4 +95,12 @@ module.exports = {
             intro:'凤凰古城。'
           }
    ],
+   gallery:[  
+    { id: 1, category: '刺绣', name: '湘绣', image: '/images/11.png', intro: '长沙湘绣，四大名绣之一。' },
+    { id: 2, category: '焰火', name: '浏阳花炮', image: '/images/14.png', intro: '火火火，霍元甲不会爱上津门第一。' },
+    { id: 3, category: '武术', name: '巫家拳', image: '/images/12.png', intro: '湖南特色拳种。' },
+    { id: 4, category: '茶', name: '君山银针', image: '/images/13.png', intro: '黄茶中的珍品。' },
+    { id: 5, category: '打铁花', name: '蹄花', image: '/images/2.png', intro: '湖南民间艺术。' }
+
+   ]
 }
