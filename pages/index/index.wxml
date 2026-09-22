@@ -18,13 +18,11 @@
     <text class="sec-title">活动推荐</text>
     <text class="sec-more" bindtap="goActivity">更多 ›</text>
   </view>
-  <view class="act-item" wx:for="{{recommendActs}}" wx:key="id" bindtap="onActTap" data-id="{{item.id}}">
-    <image class="act-img" src="{{item.cover}}" mode="aspectFill"></image>
-    <view class="act-info">
-      <text class="act-title">{{item.title}}</text>
-      <text class="act-time">{{item.time}}</text>
+   <view class="act-grid">
+    <view class="act-cell" wx:for="{{recommendActs}}" wx:key="id" bindtap="onActTap" data-id="{{item.id}}">
+      <image class="act-img" src="{{item.cover}}" mode="aspectFill"></image>
+      <text class="act-name">{{item.title}}</text>
     </view>
   </view>
-</view>
 
 

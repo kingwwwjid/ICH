@@ -5,6 +5,8 @@ Page({
   data: {
     banners: data.banners,
     activities: data.activities,
+    recommendActs: data.activities.slice(0, 4),
+
     navItems: [//轮播下处副标
       { id: 1, icon: '/images/5.png', text: '非遗活动' ,url: '/pages/activity/activity'},
       { id: 2, icon: '/images/6.png', text: '非遗展馆' ,url: '/pages/gallery/gallery' },
