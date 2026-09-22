@@ -1,3 +1,7 @@
+const data = require('../../utils/data.js')
+
 Page({
-  data: {}
+  data: {
+    travels: data.travels
+  }
 })

@@ -69,5 +69,30 @@ module.exports = {
       intro:'大师介绍。'
     }
   ],
-
+   travels:[
+          {
+            id:1,
+            image:'/images/14.png',
+            name:'浏阳',
+            intro:'欣赏烟花。'
+          },
+          {
+            id:2,
+            image:'/images/11.png',
+            name:'湘潭',
+            intro:'万楼。'
+          },
+          {
+            id:3,
+            image:'/images/13.png',  
+          name:'张家界',
+            intro:'九寨沟。'
+          },  
+        {
+            id:4,
+            image:'/images/12.png',
+            name:'湘西',
+            intro:'凤凰古城。'
+          }
+   ],
 }

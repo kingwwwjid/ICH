@@ -1,3 +1,9 @@
-<view class="page">
-  <text>非遗旅游</text>
+<view class="list">
+  <view class="t-item" wx:for="{{travels}}" wx:key="id">
+    <image class="t-img" src="{{item.image}}" mode="aspectFill"></image>
+    <view class="t-info">
+      <text class="t-name">{{item.name}}</text>
+      <text class="t-intro">{{item.intro}}</text>
+    </view>
+  </view>
 </view>
