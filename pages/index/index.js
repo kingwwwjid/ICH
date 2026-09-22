@@ -15,5 +15,15 @@ Page({
    clk(e) {
     const url = e.currentTarget.dataset.url
     wx.navigateTo({ url })
+  },
+   // 点「更多」去活动列表页
+  goActivity() {
+    wx.navigateTo({ url: '/pages/activity/activity' })
+  },
+
+  // 点某条活动去详情页
+  onActTap(e) {
+    const id = e.currentTarget.dataset.id
+    wx.navigateTo({ url: '/pages/detailact/detailact?id=' + id })
   }
 })
